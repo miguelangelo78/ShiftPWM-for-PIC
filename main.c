@@ -18,7 +18,7 @@ void main(void) {
 	init();
 	int i = 0;
 	while(1) {
-		pwm(0.001, i++);
+		pwm(1, 1, i++);
 		if(i>=3) i = 0;
 	}
 }
